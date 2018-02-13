@@ -3,6 +3,7 @@ import React from 'react'
 import { Subscribe } from 'unstated'
 import { map } from 'ramda'
 import Store from '../store'
+import { Link } from 'react-router-dom'
 
 const li = movie => <li key={movie.imdbID}>{movie.Title}</li>
 
@@ -12,6 +13,12 @@ export default () => (
       return (
         <React.Fragment>
           <header>
+            <Link
+              className="ma2 pa2 ba br2 link bg-gray white avenir fr"
+              to="/logout"
+            >
+              Logout
+            </Link>
             <h1>{store.state.title}</h1>
           </header>
           <main>

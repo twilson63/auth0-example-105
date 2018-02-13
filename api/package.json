@@ -12,5 +12,11 @@
     "pouchdb-adapter-http": "^6.4.3",
     "pouchdb-core": "^6.4.3",
     "pouchdb-upsert": "^2.2.0"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.12"
   }
 }
