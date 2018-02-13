@@ -9,7 +9,7 @@ PouchDB.plugin(require('pouchdb-adapter-http'))
 const cors = require('cors')
 
 const db = PouchDB(
-  `https://${process.env.KEY}:${process.env.SECRET}@tomw63.roo.land/movies`
+  process.env.DB
 )
 const { pluck } = require('ramda')
 
