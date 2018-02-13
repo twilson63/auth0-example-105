@@ -7,6 +7,10 @@ The master branch is the before auth0 implementation
 
 The auth0 branch is the after auth0 implementation
 
+Stream:
+
+https://youtu.be/KKjOHityVls
+
 ---
 
 ## Setup
